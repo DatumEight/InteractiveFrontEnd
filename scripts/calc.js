@@ -41,14 +41,14 @@ function whatCanIDrink (age){
 };
 
 function fizzBuzz(number) {
-    if(number % 3 && number % 5){
+    if(number % 3 == 0 && number % 5 == 0){
         return "fizzBuzz";
     }
-    if(number % 3){
-        return "Fizz";
+    if(number % 3 == 0){
+        return "fizz";
     }
-    if(number % 5){
-        return "Buzz";
+    if(number % 5 == 0){
+        return "buzz";
     }
     else{
         return number;

@@ -13,3 +13,15 @@ describe ("Calculator", function (){
         });
     });
 });
+
+describe ("fizzBuzz", function(){
+    it("should return fizzBuzz", function(){
+       expect(fizzBuzz(15)).toBe("fizzBuzz");
+    });
+    it("should return fizz", function(){
+       expect(fizzBuzz(6)).toBe("fizz");
+    });
+    it("should return buzz", function(){
+       expect(fizzBuzz(20)).toBe("buzz");
+    });
+});
